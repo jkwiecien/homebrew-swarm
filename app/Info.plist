@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>SWARM</string>
+	<key>CFBundleDisplayName</key>
+	<string>SWARM</string>
+	<key>CFBundleIdentifier</key>
+	<string>pl.smarttechbrewery.swarm.app</string>
+	<key>CFBundleExecutable</key>
+	<string>swarm</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.0</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>12.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>LSBackgroundOnly</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Runs SWARM workers under their own app identity.</string>
+
+	<!-- Shown in the privacy prompts macOS raises for the worker and the agents it runs. -->
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>SWARM workers run coding agents in project checkouts that may live in this folder.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>SWARM workers run coding agents in project checkouts that may live in this folder.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>SWARM workers run coding agents in project checkouts that may live in this folder.</string>
+	<key>NSNetworkVolumesUsageDescription</key>
+	<string>SWARM workers run coding agents in project checkouts that may live on a network volume.</string>
+	<key>NSRemovableVolumesUsageDescription</key>
+	<string>SWARM workers run coding agents in project checkouts that may live on a removable volume.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>SWARM workers connect to their control plane and to development services on your network.</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Coding agents run by SWARM workers may automate other apps when a task asks for it.</string>
+</dict>
+</plist>
