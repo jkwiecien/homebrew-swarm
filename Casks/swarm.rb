@@ -1,6 +1,6 @@
 cask "swarm" do
-  version "0.0.0"
-  sha256 :no_check
+  version "1.0.0"
+  sha256 "d26863b0e5059f32d1c5e67e2b319ebe60f13f6da994814d783cf95b0df9174f"
 
   url "https://github.com/jkwiecien/homebrew-swarm/releases/download/v#{version}/SWARM-#{version}.zip"
   name "SWARM"
